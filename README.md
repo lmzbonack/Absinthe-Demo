@@ -2,18 +2,15 @@
 
 To start your Phoenix server:
 
+  * Ensure you have Postgres running locally
   * Install dependencies with `mix deps.get`
   * Create and migrate your database with `mix ecto.setup`
   * Start Phoenix endpoint with `mix phx.server`
 
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
+Graphiql explorer is available at `localhost:4000/graphiql`
 
-Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
+## Overview
 
-## Learn more
+For this project I used [Absinthe](https://github.com/absinthe-graphql/absinthe), which is a popular GraphQL implementation for Elixir on top of [Phoenix](https://www.phoenixframework.org/), which I am sure that you have heard about.
 
-  * Official website: https://www.phoenixframework.org/
-  * Guides: https://hexdocs.pm/phoenix/overview.html
-  * Docs: https://hexdocs.pm/phoenix
-  * Forum: https://elixirforum.com/c/phoenix-forum
-  * Source: https://github.com/phoenixframework/phoenix
+I have previous experience with this stack so I was able to prototype together something pretty quickly. I backed the API with Postgres and secured it with JWT via a library called [Guardian](https://github.com/ueberauth/guardian).

@@ -25,7 +25,7 @@ config :logger, :console,
   metadata: [:request_id]
 
 # Guardian Config
-config :blawg, Tc.Guardian,
+config :tc, Tc.Guardian,
   issuer: "tc",
   secret_key: "3TrEVHPaCT1PIToFKDBh4Lh4jLwwM75BjpwjueKQw66CtaHVhpqC0pS0U9gmpk5Z",
   allowed_drift: 2000,
