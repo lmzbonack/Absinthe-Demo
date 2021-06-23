@@ -1,4 +1,4 @@
-# Tc
+# Absinthe-Demo
 
 To start your Phoenix server:
 
