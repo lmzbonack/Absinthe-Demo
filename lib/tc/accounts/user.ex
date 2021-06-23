@@ -10,8 +10,8 @@ defmodule Tc.Accounts.User do
     field :email, :string
     field :password_hash, :string
     field :name, :string
-    field :password, :string
-    field :token, :string
+    field :password, :string, virtual: true
+    field :token, :string, virtual: true
     field :refresh_token, :string, virtual: true
 
     has_many :books, Book
